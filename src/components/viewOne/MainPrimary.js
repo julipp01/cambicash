@@ -5,8 +5,13 @@ import Welcome from './Welcome';
 
 const MainPrimary = () => (
   <div>
-    <DataUser />
-    <Welcome />
+    <div className="container">
+      <br />
+      <div className="row">
+        <DataUser />
+        <Welcome />
+      </div>
+    </div>
   </div>
 )
 /* Header.propTypes = {
