@@ -1,9 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import MainPrimary from './MainPrimary';
+import List from './List';
+import Estyle from './Main.css';
 
 const Main = () => (
-  <MainPrimary />
+  <main>
+    <MainPrimary />
+    <List />
+  </main>
 )
 /* Header.propTypes = {
   title: PropTypes.string.isRequired,
