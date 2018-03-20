@@ -5,3 +5,9 @@
 .fixed {
 position: fixed;
 }
+
+@media (max-width: 576px) {
+  .margin-bottom {
+  margin-bottom: 1em;
+  }
+}
