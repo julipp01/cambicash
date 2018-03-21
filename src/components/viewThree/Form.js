@@ -5,22 +5,20 @@ const Form = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-12  col-sm-12">
+        <div className="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
           <div className="row">
-            <div className="reg-header header-form">
-              <h2>Confirmación de Datos</h2>
+            <div className="reg-header">
+              <h2 className="title-view-three">Confirmación de Datos</h2>
             </div>
-          </div>
-          <div>
-            <form action id="reg_form" className="reg-page sky-form " method="post">
+            <form action id="reg_form" className="reg-page sky-form" method="post">
               <input type="hidden" name="csrfmiddlewaretoken" defaultValue="4vGNgdweEbGjqB8AYXd4Vd89os019pEP" />
               <table className="table table-hover table-bordered table-striped text-center">
                 <thead>
                   <tr>
-                    <th style={{ backgroundColor: '#CFE2F3' }}>Tipo de Operación</th>
-                    <th style={{ backgroundColor: '#CFE2F3' }}>Cliente ENVÍA</th>
-                    <th style={{ backgroundColor: '#CFE2F3' }}>Cliente RECIBIRÁ</th>
-                    <th style={{ backgroundColor: '#CFE2F3' }}>Tipo de Cambio</th>
+                    <th className="backgraund-title-table">Tipo de Operación</th>
+                    <th className="backgraund-title-table">Cliente ENVÍA</th>
+                    <th className="backgraund-title-table">Cliente RECIBIRÁ</th>
+                    <th className="backgraund-title-table">Tipo de Cambio</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -36,9 +34,9 @@ const Form = () => {
                 <div className="row">
                   <div className="col-md-10">
                     ¿Deseas registrar una cuenta bancaria en este momento?
-                    </div>
+                </div>
                   <div className="col-md-2">
-                    <button className="btn-u pull-right" type="button" onclick="openBankAccountModal()">
+                    <button className="btn-u pull-right btn-success" type="button" onclick="openBankAccountModal()">
                       <i className="fa fa-plus" />
                     </button>
                   </div>
@@ -71,14 +69,18 @@ const Form = () => {
                 </div>
               </div>
               <div className="row">
-                <div className="col-sm-5">
-                  <section>
-                    <label className="label">Celular</label>
-                    <label className="input ">
-                      <i className="icon-prepend fa fa-phone" style={{ color: '#72C02C' }} />
-                      <input autofocus className="rextie_input" id="id_mobile_phone" name="mobile_phone" type="tel" defaultValue={950936102} />
-                    </label>
-                  </section>
+                <div className="col-lg-4 col-md-6">
+                  <div class="form-group">
+                    <label for="phone-number">Celular</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend">
+                          <i class="fa fa-phone"></i>
+                        </span>
+                      </div>
+                      <input type="text" class="form-control" id="phone-number" placeholder="979052019" aria-describedby="inputGroupPrepend" required />
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="row">
@@ -87,19 +89,19 @@ const Form = () => {
                     <input id="id_terms" name="terms" type="checkbox" />
                     <i />
                     <label className="label" style={{ fontSize: 14 }}>Aceptar
-                        <a className="rextie_a" href="/terminos-y-condiciones" target="_blank"> Términos y Condiciones </a> y
-                        <a className="rextie_a" href="/politica-de-privacidad" target="_blank"> Política de Privacidad</a>
+                    <a className="rextie_a" href="/terminos-y-condiciones" target="_blank"> Términos y Condiciones </a> y
+                    <a className="rextie_a" href="/politica-de-privacidad" target="_blank"> Política de Privacidad</a>
                     </label>
                   </label>
                 </div>
               </div>
               <div className="col-sm-12 text-center" style={{ marginTop: 42, marginBottom: 10 }}>
-                <a className="btn-u btn-u-default" href="/fxops/create">Cambiar la cantidad</a>
-                <button className="btn-u" type="submit">Aceptar</button>
+                <button className="btn-u btn-u-default btn-secondary" type="submit">Cambiar la cantidad</button>
+                <button className="btn-u btn-success" type="submit">Aceptar</button>
               </div>
               <div className="col-sm-12 text-center" style={{ marginBottom: 20 }}>
                 * Tipo de cambio vigente hasta 20:58
-                </div>
+            </div>
             </form>
           </div>
         </div>
