@@ -3,12 +3,15 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import Header from './Header/Header'
 import Main from './viewOne/Main';
+import Form from './viewThree/Form'
 
 const App = () => {
   return (
     <div>
       <Header/>
-      <Main />
+      {/* <Header/>
+      <Main /> */}
+      <Form/>
     </div>
   );
 }

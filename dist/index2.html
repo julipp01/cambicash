@@ -1,104 +1,215 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Insta Collage</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <button class="btn my-2 my-sm-0" type="submit">CUENTA</button>
-          <button class="btn my-2 my-sm-0" type="submit">SALIR</button>
-        </form>
-      </div>
-    </nav>
-  </header>
+<body>
   <main>
+
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <table class="table  table-bordered">
+            <thead class="">
+              <tr>
+                <th scope="col">Tipo de Operación</th>
+                <th scope="col">Cliente ENVÍA</th>
+                <th scope="col">Cliente RECIBIRÁ</th>
+                <th scope="col">Tipo de Cambio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>COMPRA</th>
+                <td>1000.00 Dólares</td>
+                <td>3246.00</td>
+                <td>3.246</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          ¿Deseas Registrar una cuenta bancaria en este momento?
+          <a href="#" class="btn btn-primary btn-sm">
+            <i class="fa fa-plus"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <form id="loginform" class="form-horizontal" role="form">
+            <div class="form-group">
+              <label for="disabledTextInput">Cuenta Bancaria Origen</label>
+              <select class="form-control form-control-sm" id="Sselect1">
+                <option>Interbank - Ahorros -USD - 1234567845123</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="disabledTextInput">Cuenta Bancaria Destino</label>
+              <select class="form-control form-control-sm" id="Sselect1">
+                <option>Interbank - Ahorros -PEN - 00904420131011823591</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="phone-number">Celular</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupPrepend">
+                    <i class="fa fa-phone"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" id="phone-number" placeholder="979052019" aria-describedby="inputGroupPrepend" required>
+              </div>
+            </div>
+
+            <div class="input-group">
+              <div class="checkbox">
+                <label>
+                  <input id="acepted" type="checkbox" name="acepted" value="1"> Aceptar
+                  <a href="#">Términos y Condiciones</a> y
+                  <a href="#">Política de Privacidad</a>
+                </label>
+              </div>
+            </div>
+
+
+            <div  class="form-group">
+
+              <div class="col-sm-12 controls">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-secondary">Cambiar la Cantidad</button>
+                  <button type="button" class="btn btn-secondary">Aceptar</button>
+                </div>
+              </div>
+              <p> * Tipo de cambio vigente hasta 23:03</p>
+
+            </div>
+          </form>
+        </div>
+      </div>
+      <div>
+      </div>
+
+    </div> -->
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="col-md-6 col-md-offset-3 col-sm-8 col-smoffset-2">
+          <div class="row">
+            <div class="reg-header">
+              <h2>Confirmación de Datos</h2>
             </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
+            <form action="" id="reg_form" class="reg-page sky-form" method="post">
+              <input type="hidden" name="csrfmiddlewaretoken" value="4vGNgdweEbGjqB8AYXd4Vd89os019pEP">
+              <table class="table table-hover table-bordered table-striped text-center">
+                <thead>
+                  <tr>
+                    <th style="background-color: #CFE2F3;">Tipo de Operación</th>
+                    <th style="background-color: #CFE2F3;">Cliente ENVÍA</th>
+                    <th style="background-color: #CFE2F3;">Cliente RECIBIRÁ</th>
+                    <th style="background-color: #CFE2F3;">Tipo de Cambio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>COMPRA</td>
+                    <td>1000.00 Dólares</td>
+                    <td>3249.00 Soles</td>
+                    <td>3,2490</td>
+                  </tr>
+                </tbody>
+              </table>
+              <section>
+                <div class="row">
+                  <div class="col-md-10">
+                    ¿Deseas registrar una cuenta bancaria en este momento?
+                  </div>
+                  <div class="col-md-2">
+                    <button class="btn-u pull-right" type="button" onclick="openBankAccountModal()">
+                      <i class="fa fa-plus"></i>
+                    </button>
+                  </div>
+                </div>
+              </section>
+              <div class="row">
+                <div class="col-sm-12">
+                  <section>
+                    <label class="label">Cuenta Bancaria Origen</label>
+                    <label class="select ">
+                      <select class="rextie_input" id="id_source_bank_account" name="source_bank_account">
+                        <option value="" selected="selected">Seleccione Cuenta Bancaria Origen</option>
+                      </select>
+                      <i></i>
+                    </label>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <section>
+                    <label class="label">Cuenta Bancaria Destino</label>
+                    <label class="select ">
+                      <select class="rextie_input" id="id_target_bank_account" name="target_bank_account">
+                        <option value="" selected="selected">Seleccione Cuenta Bancaria Destino</option>
+                      </select>
+                      <i></i>
+                    </label>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-5">
+                  <section>
+                    <label class="label">Celular</label>
+                    <label class="input ">
+                      <i class="icon-prepend fa fa-phone" style="color: #72C02C;"></i>
+                      <input autofocus="" class="rextie_input" id="id_mobile_phone" name="mobile_phone" type="tel" value="950936102">
+                    </label>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 checkbox">
+                  <label id="check_label_terms" class="checkbox ">
+                    <input id="id_terms" name="terms" type="checkbox">
+                    <i></i>
+                    <label class="label" style="font-size: 14px;">Aceptar
+                      <a class="rextie_a" href="/terminos-y-condiciones" target="_blank"> Términos y Condiciones </a> y
+                      <a class="rextie_a" href="/politica-de-privacidad" target="_blank"> Política de Privacidad</a>
+                    </label>
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-12 text-center" style="margin-top: 42px; margin-bottom: 10px">
+                <a class="btn-u btn-u-default" href="/fxops/create">Cambiar la cantidad</a>
+                <button class="btn-u" type="submit">Aceptar</button>
+              </div>
+              <div class="col-sm-12 text-center" style="margin-bottom: 20px">
+                * Tipo de cambio vigente hasta 20:58
+              </div>
+            </form>
           </div>
-        </div>
-        <div class="col-md-8">
-          <div class="card text-center">
-            <div class="card-header">
-              Featured
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-            <div class="card-footer text-muted">
-              2 days ago
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <button type="button" class="btn btn-primary">Primary</button>
-          <button type="button" class="btn btn-secondary">Secondary</button>
-          <button type="button" class="btn btn-success">Success</button>
-          <button type="button" class="btn btn-danger">Danger</button>
-          <button type="button" class="btn btn-warning">Warning</button>
-          <button type="button" class="btn btn-info">Info</button>
-          <button type="button" class="btn btn-light">Light</button>
-          <button type="button" class="btn btn-dark">Dark</button>
         </div>
       </div>
     </div>
   </main>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
