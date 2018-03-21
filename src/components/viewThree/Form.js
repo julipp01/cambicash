@@ -5,12 +5,14 @@ const Form = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-6 col-md-offset-3 col-sm-8 col-smoffset-2">
+        <div className="col-md-12  col-sm-12">
           <div className="row">
             <div className="reg-header header-form">
               <h2>Confirmación de Datos</h2>
             </div>
-            <form action id="reg_form" className="reg-page sky-form" method="post">
+          </div>
+          <div>
+            <form action id="reg_form" className="reg-page sky-form " method="post">
               <input type="hidden" name="csrfmiddlewaretoken" defaultValue="4vGNgdweEbGjqB8AYXd4Vd89os019pEP" />
               <table className="table table-hover table-bordered table-striped text-center">
                 <thead>
@@ -103,7 +105,7 @@ const Form = () => {
         </div>
       </div>
     </div>
-      );
-    }
-    
-    export default Form
+  );
+}
+
+export default Form

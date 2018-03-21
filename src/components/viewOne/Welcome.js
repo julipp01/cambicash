@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from "react-router-dom";
 
 const Welcome = () => (
   <div className="col-md-8">
@@ -13,7 +14,7 @@ const Welcome = () => (
               <img src="http://www.tickerbar.info/images/make-money-online.jpg" width="50%" alt />
             </div>
             <br />
-            <a href="#" className="btn btn-success">Nueva Operacion</a>
+            <a  className="btn btn-success"><Link to="/MainViewTwo">Nueva Operacion</Link></a>
           </div>
           <div className="card-footer text-muted" />
     </div>
