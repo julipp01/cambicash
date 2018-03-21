@@ -4,7 +4,6 @@ import DataUser from './DataUser';
 import Welcome from './Welcome';
 
 const data = {
-  title: 'Cuenta Personal',
   url: 'http://www.metalcivasquez.com.bo/php/images/contact-women.jpg',
   name: 'Mery Luz Umiyauri Mendoza',
   dni: '70234567',
