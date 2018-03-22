@@ -6,20 +6,17 @@
   color: #7ACE3B;
 }
 
-/* Estilos para Form */
-
-.reg-header h2 {
-  font-size: 24px;
-  margin-bottom: 15px;
-}
 
 @media (min-width: 700px) {
-  .stylo{
-    margin-top: 25px;
-    margin-left: 700px;
+    .stylo{
+      margin-top: 25px;
+      margin-left: 700px;
+    }
+  
+    .stylo2{
+      margin-top: 25px;    
+    }
   }
+/* Estilos para Form */
 
-  .stylo2{
-    margin-top: 25px;    
-  }
-}
+

@@ -51,7 +51,7 @@ const RegisterOperation = ({inputUsd, inputPen, urlPen, urlUsd, usd, pen, interc
           </div>
         </div>
       </div>
-      <a href="#" className="btn btn-success btn-register"><Link to="/MainViewThree">Registrar Operacion</Link></a>
+      <a href="#" className="btn btn-success btn-register btn-rextie"><Link to="/MainViewThree" className="btn-link-no">Registrar Operacion</Link></a>
     </div>
   );
 }

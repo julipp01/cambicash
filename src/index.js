@@ -9,7 +9,7 @@ const reducer = (state = {
   inputUsd: 1000,
   inputPen: 3246,
   urlUsd: 'https://icon-icons.com/icons2/230/PNG/128/UnitedStates_US_USA_840_Flag1_26093.png',
-  urlPen: 'http://icdn.pro/images/es/b/a/bandera-peru-icono-5432-128.png',
+  urlPen: 'http://www.mismarcadores.com/res/image/data/nk3TfRGG-CIDuW164.png',
   usd: 'USD $',
   pen: 'PEN S/',
   input: '100'

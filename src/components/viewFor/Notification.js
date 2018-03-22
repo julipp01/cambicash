@@ -40,7 +40,7 @@ const Notification = () => (
         <div className="row">
           <div className="col-sm-12 text-center" style={{ marginTop: 42, marginBottom: 10 }}>
             <button className="btn-u btn-u-default btn-secondary" type="submit">Ir a la página principal</button>
-            <button className="btn-u btn-success" type="submit"><Link to="/MainViewTwo">Nueva Operación</Link></button>
+            <button className="btn-u btn-success btn-rextie" type="submit"><Link to="/MainViewTwo" className="btn-link-no">Nueva Operación</Link></button>
           </div>
         </div>
       </div>
