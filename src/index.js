@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 // import { createStore } from 'redux';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
+import { combineReducers } from 'redux';
 
 
 
@@ -29,13 +30,21 @@ const reducer = (state = {
   }
 };
 
+// const rootReducer = combineReducers ({
+//   myApp: 
+// });
+
+// export default rootReducer;
+
 // const store = createStore(reducer);
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducer)}>
     <Router>
-      <Route path="/" component={App} />
+      <Route>
+        <App/>
+      </Route>
     </Router>
   </Provider>,
 
