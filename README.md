@@ -20,7 +20,9 @@
 
 ## Flujo de la Aplicacion
 
-![Demo](https://www.useloom.com/share/38dabd9a69254aa5b039eca28cb23760)
+Ver Demo:
+
+https://www.useloom.com/share/db9ec9f7a23f40d1b894cf3884febad4
 
 ![capture1](https://user-images.githubusercontent.com/32307611/37777447-8ffd7a80-2db5-11e8-8491-77104fc44ee9.PNG)
 
