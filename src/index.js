@@ -40,13 +40,11 @@ const reducer = (state = {
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(reducer)}>
-    <Router>
-      <Route>
-        <App/>
-      </Route>
-    </Router>
-  </Provider>,
+  <Router>
+    <Provider store={createStoreWithMiddleware(reducers)}>
+      <App />
+    </Provider>
+  </Router>,
 
   //   < Provider store = {store} > 
   //   < Router > 
