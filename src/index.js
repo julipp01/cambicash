@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
-import {BrowserRouter as Router} from 'react-router-dom';
-import { createStore } from 'redux';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+// import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
+
 
 
 const reducer = (state = {
@@ -20,20 +22,29 @@ const reducer = (state = {
       return { urlUsd: state.urlPen, urlPen: state.urlUsd, usd: state.pen, pen: state.usd }
     case 'CALCULAR':
       console.log(action.newInput)
-      return { ...state, input: action.newInput, inputPen: state.input}
+      return { ...state, input: action.newInput, inputPen: state.input }
 
     default:
       return state;
   }
 };
 
-const store = createStore(reducer);
+// const store = createStore(reducer);
+const createStoreWithMiddleware = applyMiddleware()(createStore);
+
 ReactDOM.render(
-  <Router>
-    <Provider store={store}>
-      <App />
-    </Provider>
-  </Router>,
+  <Provider store={createStoreWithMiddleware(reducer)}>
+    <Router>
+      <Route path="/" component={App} />
+    </Router>
+  </Provider>,
+
+  //   < Provider store = {store} > 
+  //   < Router > 
+  //     < Route path = " / " componente = {App} / > 
+  //   < / Router > 
+  // < / Provider > 
+
   // <Provider store={store}>
   //   <Router history={syncHistoryWithStore(browserHistory, store)}>
   //     <Route path="/" component={App} />
