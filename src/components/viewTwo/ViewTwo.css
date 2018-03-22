@@ -1,4 +1,4 @@
-main {
+.main-bg {
   background-image:url('http://www.currencyonline.com/assets/img/slider/slider-1.jpg');
   /* opacity: 0.9; */
   width: 100%;
@@ -34,6 +34,9 @@ main {
   color: white;
 }
 
+/**********************form money*******************************/
+
+/**********************************************************/
 @media (max-width: 767.98px) {
   .center {
     margin: 3em auto;

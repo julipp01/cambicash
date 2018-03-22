@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Estyle from './Main.css';
+import Estyle2 from './ViewTwo.css';
 import Operation from './Operation';
 
-const Main = () => (
-  <main>
+const ViewTwo = () => (
+  <main className="main-bg">
     <Operation />
   </main>
 )
@@ -14,4 +14,4 @@ const Main = () => (
   paragraph: PropTypes.string.isRequired
 } */
 
-export default Main
+export default ViewTwo

@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import DataUser from './DataUser';
 import Welcome from './Welcome';
+import { Link } from "react-router-dom";
 
 const data = {
   url: 'http://www.metalcivasquez.com.bo/php/images/contact-women.jpg',

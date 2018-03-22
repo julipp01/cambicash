@@ -1,13 +1,13 @@
 import React from 'react'
 import { Switch, Route } from "react-router-dom";
-import MainViewTwo from './viewTwo/Main';
-/* import Confirmation from '../containers/confirmation-container'
-import Notification from '../containers/notification-container' */
+import MainViewTwo from './viewTwo/ViewTwo';
+import MainViewOne from './viewOne/ViewOne';
 
 const MainRouter = () => (
- <div className="col-12 col-lg-9">
+ <div>
    <Switch>
-     <Route exact path="/MainViewTwo" component={MainViewTwo} />
+    <Route exact path="/" component={MainViewOne} />
+    <Route exact path="/MainViewTwo" component={MainViewTwo} />
    </Switch>
  </div>
 )

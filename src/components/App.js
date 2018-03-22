@@ -2,8 +2,7 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 import Header from './Header/Header'
-import Main from './viewOne/Main';
-/* import Style from './App.css'; */
+import Main from './Main';
 
 const App = () => {
   return (

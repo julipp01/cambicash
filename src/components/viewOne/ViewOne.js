@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import MainPrimary from './MainPrimary';
 import List from './List';
-import Estyle from './Main.css';
+import Estyle1 from './ViewOne.css';
 
-const Main = () => (
+const ViewOne = () => (
   <main>
     <MainPrimary />
     <List />
@@ -16,4 +16,4 @@ const Main = () => (
   paragraph: PropTypes.string.isRequired
 } */
 
-export default Main 
+export default ViewOne
