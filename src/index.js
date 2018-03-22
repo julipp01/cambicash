@@ -28,11 +28,12 @@ const reducer = (state = {
 
 const store = createStore(reducer);
 ReactDOM.render(
-  <Router>
+  <Router path={process.env.PUBLIC_URL + '/'}>
     <Provider store={store}>
       <App />
     </Provider>
   </Router>,
+
   document.getElementById('root')
 )
 
