@@ -4,13 +4,12 @@ import Header from './Header/Header'
 import Main from './Main';
 import Form from './viewThree/Form';
 import Notification from './viewFor/Notification'
-import ViewOne from './viewOne/ViewOne';
 
 const App = () => {
   return (
     <div>
       <Header/>
-      <ViewOne />
+      <Main />
     </div>
   );
 }
