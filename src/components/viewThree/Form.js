@@ -1,5 +1,6 @@
 import React from 'react';
 import FormCss from './Form.css'
+import { Link } from "react-router-dom";
 
 const Form = () => {
   return (
@@ -97,7 +98,7 @@ const Form = () => {
               </div>
               <div className="col-sm-12 text-center" style={{ marginTop: 42, marginBottom: 10 }}>
                 <button className="btn-u btn-u-default btn-secondary" type="submit">Cambiar la cantidad</button>
-                <button className="btn-u btn-success" type="submit">Aceptar</button>
+                <button className="btn-u btn-success" type="submit"><Link to="/MainViewFor">Aceptar</Link></button>
               </div>
               <div className="col-sm-12 text-center" style={{ marginBottom: 20 }}>
                 * Tipo de cambio vigente hasta 20:58

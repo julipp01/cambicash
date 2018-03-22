@@ -2,7 +2,7 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
+import { Link } from "react-router-dom";
 
 const RegisterOperation = ({inputUsd, inputPen, urlPen, urlUsd, usd, pen, intercambiar, setInput}) => {
   return (
@@ -51,7 +51,7 @@ const RegisterOperation = ({inputUsd, inputPen, urlPen, urlUsd, usd, pen, interc
           </div>
         </div>
       </div>
-      <a href="#" className="btn btn-success btn-register">Registrar Operacion</a>
+      <a href="#" className="btn btn-success btn-register"><Link to="/MainViewThree">Registrar Operacion</Link></a>
     </div>
   );
 }

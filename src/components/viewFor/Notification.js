@@ -1,5 +1,6 @@
 import React from 'react';
 import NotificationCSS from './Notification.css'
+import { Link } from "react-router-dom";
 
 const Notification = () => (
   <div className="container-fluid">
@@ -39,7 +40,7 @@ const Notification = () => (
         <div className="row">
           <div className="col-sm-12 text-center" style={{ marginTop: 42, marginBottom: 10 }}>
             <button className="btn-u btn-u-default btn-secondary" type="submit">Ir a la página principal</button>
-            <button className="btn-u btn-success" type="submit">Nueva Operación</button>
+            <button className="btn-u btn-success" type="submit"><Link to="/MainViewTwo">Nueva Operación</Link></button>
           </div>
         </div>
       </div>
