@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
-import {BrowserRouter as Router} from 'react-router-dom';
+// import {BrowserRouter as Router} from 'react-router-dom';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
+import { Router, Route, browserHistory } from 'react-router';
+import { syncHistoryWithStore } from 'react-router-redux';
 
 const reducer = (state = {
   inputUsd: 1000,
@@ -28,11 +30,16 @@ const reducer = (state = {
 
 const store = createStore(reducer);
 ReactDOM.render(
-  <Router path={process.env.PUBLIC_URL + '/'}>
+/*   <Router path={process.env.PUBLIC_URL + '/'}>
     <Provider store={store}>
       <App />
     </Provider>
-  </Router>,
+  </Router>, */
+  <Provider store={store}>
+    <Router history={syncHistoryWithStore(browserHistory, store)}>
+      <Route path="/" component={App} />
+    </Router>
+  </Provider>,
 
   document.getElementById('root')
 )
