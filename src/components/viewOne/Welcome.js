@@ -14,7 +14,7 @@ const Welcome = () => (
               <img src="http://www.tickerbar.info/images/make-money-online.jpg" width="50%" alt />
             </div>
             <br />
-            <a  className="btn btn-success"><Link to="/MainViewTwo">Nueva Operacion</Link></a>
+            <a  className="btn btn-success btn-rextie"><Link to="/MainViewTwo" className="btn-link-no">NUEVA OPERACIÓN</Link></a>
           </div>
           <div className="card-footer text-muted" />
     </div>

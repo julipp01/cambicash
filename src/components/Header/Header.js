@@ -17,10 +17,10 @@ const Header = () => (
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="navbar-nav ml-auto mt-2 mt-lg-0 ">
           
-          <li className="nav-item">
+          <li className="nav-item stylo">
             <a className="nav-link font-size-12" href="">CUENTA</a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item stylo2">
             <a className="nav-link font-size-12" href="">SALIR</a>
           </li>
         </ul>
