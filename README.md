@@ -20,7 +20,7 @@
 
 ## Flujo de la Aplicacion
 
-1. Pantalla Bienvenida Usuarios, si el usuario de la click en nueva operación le llevara a la siguiente vista.
+![Demo](https://www.useloom.com/share/38dabd9a69254aa5b039eca28cb23760)
 
 ![capture1](https://user-images.githubusercontent.com/32307611/37777447-8ffd7a80-2db5-11e8-8491-77104fc44ee9.PNG)
 
