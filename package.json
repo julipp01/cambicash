@@ -9,9 +9,10 @@
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "Vanessa y Araceli",
+  "author": "Araceli Cueva y Vannessa",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/AraceliCumen/Reto-Rextie"
   },
   "license": "ISC",
   "devDependencies": {
