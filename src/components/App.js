@@ -1,17 +1,19 @@
-import React from 'react'
-import PropTypes from 'prop-types';
-import Header from './Header/Header'
-import Main from './Main';
-import Form from './viewThree/Form';
-import Notification from './viewFor/Notification'
+import React from 'react';
+import Header from './Header'
+import Footer from './Footer'
+// import Main from './Main'
 
-const App = () => {
-  return (
-    <div>
-      <Header/>
-      <Main />
-    </div>
-  );
-}
 
-export default App
+
+
+const  App = ()=> (
+ 
+      <div className="App">
+       <Header />
+       {/* <Main /> */}
+       <Footer />
+      </div>
+  
+)
+
+export default App;
