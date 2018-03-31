@@ -99,25 +99,30 @@ li-hover:hover {
   padding: 15px; }
 
 .bg-sky-2 {
-  background-color: #F6F9FC; }
+  background-color: rgba(255, 255, 255, 0.5); }
 
 .radius-20 {
   border-radius: 20px; }
 
 .w-contain {
-  width: 460px;
+  width: 450px;
   margin: 1em auto; }
 
 .title-c-1 {
-  font-size: 32px;
+  font-size: 3rem;
   color: #26A8E0;
   font-weight: 700;
   line-height: 1; }
 
 .title-c-2 {
-  font-size: 24px;
+  font-size: 2.5rem;
   color: #7ACE3B;
   font-weight: 700; }
+
+.title-c-3 {
+  font-size: 1.5rem;
+  color: #F6F9FC;
+  font-weight: 500; }
 
 .padding-top-10 {
   padding-top: 10px; }
