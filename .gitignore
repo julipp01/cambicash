@@ -4,7 +4,8 @@
 /node_modules
 
 # sass
-/.sass-cache
+.sass-cache/
+*.css.map
 
 
 # testing
