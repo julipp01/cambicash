@@ -1,16 +1,13 @@
 import React from 'react';
 import Header from './Header'
 import Footer from './Footer'
-// import Main from './Main'
-
-
-
+import Main from './Main'
 
 const  App = ()=> (
  
-      <div className="App">
+      <div className="App bk-image-main">
        <Header />
-       {/* <Main /> */}
+       <Main />
        <Footer />
       </div>
   

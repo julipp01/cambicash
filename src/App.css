@@ -1,7 +1,101 @@
 * {
   font-family: 'Nunito', sans-serif; }
 
+.logo {
+  width: 120px;
+  margin-top: -10px; }
+
+.nav-color {
+  background-color: white;
+  border-radius: 0px; }
+
+li-hover:hover {
+  color: #7ACE3B; }
+
 .bg-black-one {
   background-color: #272727; }
+
+.text-color-white {
+  color: white; }
+
+.padding-top {
+  padding-top: 30px; }
+
+.padding-bottom {
+  padding-bottom: 20px; }
+
+.bk-image-main {
+  background-image: url(https://www.kambista.com/_nuxt/img/banner_home.c96b033.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.message-user {
+  color: #7ACE3B;
+  padding: 5px; }
+
+#color-green {
+  background-color: #7ACE3B;
+  border: none; }
+
+.margin-left {
+  margin-left: -30px; }
+
+.glyphicon {
+  margin-right: 10px; }
+
+.panel-body {
+  padding: 0px; }
+
+.panel-body table tr td {
+  padding-left: 15px; }
+
+.panel-body .table {
+  margin-bottom: 0px; }
+
+.img-user {
+  width: 100px; }
+
+.process-step .btn:focus {
+  outline: none; }
+
+.process {
+  display: table;
+  width: 100%;
+  position: relative; }
+
+.process-row {
+  display: table-row; }
+
+.process-step button[disabled] {
+  opacity: 1 !important;
+  filter: alpha(opacity=100) !important; }
+
+.process-row:before {
+  top: 40px;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  z-order: 0; }
+
+.process-step {
+  display: table-cell;
+  text-align: center;
+  position: relative; }
+
+.process-step p {
+  margin-top: 4px; }
+
+.btn-circle {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 50%; }
+
+.padding-10px {
+  padding: 15px; }
 
 /*# sourceMappingURL=App.css.map */
