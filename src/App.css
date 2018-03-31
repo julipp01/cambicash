@@ -78,7 +78,7 @@ li-hover:hover {
   width: 100%;
   height: 1px;
   background-color: #ccc;
-  z-order: 0; }
+  paint-order: 0; }
 
 .process-step {
   display: table-cell;
@@ -97,5 +97,39 @@ li-hover:hover {
 
 .padding-10px {
   padding: 15px; }
+
+.bg-sky-2 {
+  background-color: #F6F9FC; }
+
+.radius-20 {
+  border-radius: 20px; }
+
+.w-contain {
+  width: 460px;
+  margin: 1em auto; }
+
+.title-c-1 {
+  font-size: 32px;
+  color: #26A8E0;
+  font-weight: 700;
+  line-height: 1; }
+
+.title-c-2 {
+  font-size: 24px;
+  color: #7ACE3B;
+  font-weight: 700; }
+
+.padding-top-10 {
+  padding-top: 10px; }
+
+.w-box {
+  width: 400px; }
+
+.show {
+  display: block; }
+
+.btn-desactive {
+  background-color: transparent;
+  color: #7ACE3B; }
 
 /*# sourceMappingURL=App.css.map */
