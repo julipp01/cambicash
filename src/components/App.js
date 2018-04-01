@@ -1,11 +1,14 @@
 import React from 'react';
-import Header from './Header'
-import Footer from './Footer'
-import Main from './Main'
+import Header from './mainView/Header'
+import Footer from './mainView/Footer'
+import Main from './mainView/Main'
+
+
+
 
 const  App = ()=> (
  
-      <div className="App bk-image-main">
+      <div className="App">
        <Header />
        <Main />
        <Footer />
