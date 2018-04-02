@@ -13,9 +13,6 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
     const style = isChange.isChange2 ? ' show' : ' hide'
     return style;
   }
-
-
-
   return (
     <div className="Container mb-3 p-0">
       <div className="radius-20 w-contain p-4 bg-white">
@@ -26,7 +23,7 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
 
         <div className="row d-flex justify-content-center" >
           <button type="button" className="btn btn-primary mr-2 px-3" onClick={clickOne}>Compra: 3.2480</button>
-          <button type="button" class="btn btn-success px-4" onClick={clickTwo}>Venta: 3.2700</button>
+          <button type="button" className="btn btn-success px-4" onClick={clickTwo}>Venta: 3.2700</button>
         </div>
 
         {/********************************************************mostrar cambio de soles a dolares************************************************** */}

@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-
 const List = () => (
-
   <div className="Menu">
     <ul className="pl-0">
       <li className="bg-green "> <Link to="/" className="white"><span className="fas fa-angle-right mr-1 "></span> Nueva Operación</Link></li>
