@@ -250,9 +250,10 @@ footer h4, footer h6 {
   color: white; }
 
 .user {
-  width: 200px;
-  height: 200px;
-  margin: auto; }
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  text-align: center; }
 
 .user img {
   width: 100%;
@@ -268,5 +269,8 @@ footer h4, footer h6 {
 .one1 img {
   width: 60px;
   height: 60px; }
+
+.footer {
+  font-size: 0.8rem; }
 
 /*# sourceMappingURL=App.css.map */

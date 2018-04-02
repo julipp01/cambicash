@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <footer id="footer">
-    <div className="container">
+    <div className="container footer">
       <div className="row">
         <div className="col-xs-6 col-sm-4 column">
           <h6 className="text-uppercase">Registrados en</h6>
