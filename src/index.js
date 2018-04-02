@@ -10,12 +10,11 @@ import './App.css'
 import { BrowserRouter as Router } from "react-router-dom";
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
-
 ReactDOM.render(
-    <Router>
-<Provider store={createStoreWithMiddleware(reducers)}>
-<App />
-</Provider>
-</Router>    
-    , document.getElementById('root'));
+  <Router>
+    <Provider store={createStoreWithMiddleware(reducers)}>
+      <App />
+    </Provider>
+  </Router>
+  , document.getElementById('root'));
 registerServiceWorker();

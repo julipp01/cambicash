@@ -4,21 +4,18 @@ import { solesToDolar, dolarToSoles, buyingDolar, buyingSoles } from '../actions
 import { bindActionCreators } from 'redux';
 
 function mapStateToProps(state) {
-
   return {
     isChange: state.isChange,
-
   }
 }
- 
 
-function mapDispatchToProps (dispatch){
- 
-  return bindActionCreators({ clickOne : solesToDolar,
-                              clickTwo : dolarToSoles,
-                              operationBuy1 : buyingDolar,
-                              operationBuy2 : buyingSoles,
-                            }, dispatch)
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({
+    clickOne: solesToDolar,
+    clickTwo: dolarToSoles,
+    operationBuy1: buyingDolar,
+    operationBuy2: buyingSoles,
+  }, dispatch)
 }
 
-export default connect(mapStateToProps,mapDispatchToProps)(ChangeOnline)
+export default connect(mapStateToProps, mapDispatchToProps)(ChangeOnline)

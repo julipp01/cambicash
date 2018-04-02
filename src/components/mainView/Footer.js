@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Footer = () => (
   <footer id="footer">
     <div className="container">
@@ -43,7 +42,7 @@ const Footer = () => (
         </div>
       </div>
       <br />
-      <span className="pull-right text-muted small d-flex justify-content-center pt-5 white"><a href="http://www.codeply.com " className="white mr-1"><span className="fas fa-copyright"></span>2016-2017 REXTIE SAC</a> Todos los derechos reservados.</span>
+      <span className="pull-right text-muted small d-flex justify-content-center pt-5 white"><a href="http://www.codeply.com " className="white mr-1"><span className="fas fa-copyright"></span>2018 REXTIE SAC</a> Todos los derechos reservados.</span>
     </div>
   </footer>
 

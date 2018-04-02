@@ -20,14 +20,12 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
           <p className="title-c-1 mb-0">Cambio de dólares online</p>
           <p className="title-c-2 mt-0">Seguro, rápido y al mejor precio</p>
         </div>
-
         <div className="row d-flex justify-content-center" >
           <button type="button" className="btn btn-primary mr-2 px-3" onClick={clickOne}>Compra: 3.2480</button>
           <button type="button" className="btn btn-success px-4" onClick={clickTwo}>Venta: 3.2700</button>
         </div>
 
         {/********************************************************mostrar cambio de soles a dolares************************************************** */}
-
         <div className={"container mt-3" + showSolesToDolar()}>
           <div className="row" >
             <div className="col-6 border ">
@@ -37,14 +35,12 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
               }} />
             </div>
             <div className="col-6 border pt-2">
-
               <div className=" d-inline-block">
                 <img className="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1200px-Flag_of_Peru_%28state%29.svg.png" alt="eeuu" />
               </div>
               <div className="d-inline-block">
                 <p className=" money">PEN S/</p>
               </div>
-
             </div>
           </div>
           <div className="row" >
@@ -60,13 +56,11 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
               <div className=" d-inline-block">
                 <p className=" money">USD $</p>
               </div>
-
             </div>
           </div>
         </div>
 
         {/**********************************************mostrar cambio de dolares a soles************************************************************ */}
-
         <div className={"container venta  mt-3 " + showDolarToSoles()}>
           <div className="row" >
             <div className="col-6 border ">
@@ -76,14 +70,12 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
               }} />
             </div>
             <div className="col-6 border pt-2">
-
               <div className=" d-inline-block">
                 <img className="flag" src="https://amedia.britannica.com/33/4833-004-297297B9.jpg" alt="eeuu" />
               </div>
               <div className="d-inline-block">
                 <p className=" money">USD $</p>
               </div>
-
             </div>
           </div>
           <div className="row" >
@@ -92,19 +84,15 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
               <input type="text" className="input-c" maxLength="20" value={isChange.result2} />
             </div>
             <div className="col-6 border pt-2">
-
               <div className=" d-inline-block">
                 <img className="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1200px-Flag_of_Peru_%28state%29.svg.png" alt="peru" />
               </div>
               <div className=" d-inline-block">
                 <p className=" money">PEN S/</p>
               </div>
-
             </div>
           </div>
         </div>
-
-
         <div className="text-center grey-2 mt-3" >
           <p className="title-4 mb-0 ">Ahorra S/. 100.00 respecto al banco</p>
           <p className="f14">Tipo de cambio vigente hasta 00:00</p>
@@ -114,13 +102,10 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
             <Link to="/confirmation" className="white">Siguiente</Link>
           </button>
         </div>
-
       </div>
     </div>
-
   )
 }
-
 
 ChangeOnline.propTypes = {
   isChange: PropTypes.object.isRequired,

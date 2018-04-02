@@ -12,7 +12,6 @@ const List = () => (
       <li className="bg-white"><Link to="/cuentarextie"><span className="fas fa-credit-card text-primary"></span> Cuentas Bancarias de Rextie</Link></li>
     </ul>
   </div>
-
 )
 
 export default List;
