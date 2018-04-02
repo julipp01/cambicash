@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux';
-import ConverterReducers from './converter-reducer';
+import ChangeReducers from './change-reducer';
 
  
 
 
 const rootReducer = combineReducers({
-    isChange: ConverterReducers,
+    isChange: ChangeReducers,
 
 
 });

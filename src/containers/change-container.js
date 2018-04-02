@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import ChangeOnline from '../components/viewOne/ChangeOnline';
-import { selectTypeBuy, selectTypeSale ,converterBuy, converterSale } from '../actions/action-index';
+import { solesToDolar, dolarToSoles, buyingDolar, buyingSoles } from '../actions/action';
 import { bindActionCreators } from 'redux';
 
 function mapStateToProps(state) {
@@ -14,10 +14,10 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps (dispatch){
  
-  return bindActionCreators({ handleClick1 : selectTypeBuy,
-                              handleClick2 : selectTypeSale,
-                              onConverterBuy :converterBuy,
-                              onConverterSale :converterSale,
+  return bindActionCreators({ clickOne : solesToDolar,
+                              clickTwo : dolarToSoles,
+                              operationBuy1 : buyingDolar,
+                              operationBuy2 : buyingSoles,
                             }, dispatch)
 }
 

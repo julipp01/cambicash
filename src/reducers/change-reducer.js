@@ -5,7 +5,7 @@ const SALE = 3.2700;
 
 
 
-const initState = {
+const INIT_STATE = {
     isChange1: true,
     isChange2: false,
     isShow1: true,
@@ -22,10 +22,10 @@ const initState = {
 
 
 
-const converterReducer =(state=initState  , action)=>{
+export default (state = INIT_STATE  , action)=>{
   
     switch (action.type) {
-      case 'SELECT_TYPE_BUY':
+      case 'SOLES_TO_DOLAR':
       return {...state,
         isChange1: true,
         isChange2: false,
@@ -36,7 +36,7 @@ const converterReducer =(state=initState  , action)=>{
         typeChange : 'USD',
         change : BUY,
       };
-      case 'SELECT_TYPE_SALE':
+      case 'DOLAR_TO_SOLES':
       return {...state,
         isChange2: true,
         isChange1: false,
@@ -47,12 +47,12 @@ const converterReducer =(state=initState  , action)=>{
         typeChange : 'SOLES',
         change : SALE,
       };
-      case 'CONVERTER_BUY':
+      case 'BUYING_DOLAR':
       return { ...state,
           term1: action.payload,
           result1: (action.payload / BUY).toFixed(2)
       };
-    case 'CONVERTER_SALE':
+    case 'BUYING_SOLES':
       return { ...state,
         term2: action.payload,
         result2: (action.payload * SALE).toFixed(2)
@@ -62,5 +62,3 @@ const converterReducer =(state=initState  , action)=>{
     }
   
   }
-
-  export default converterReducer

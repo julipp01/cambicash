@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
-const ChangeOnline = ({ isChange, handleClick1, handleClick2, onConverterBuy, onConverterSale }) => {
-  const show1 = () => {
+const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBuy2 }) => {
+  console.log(isChange);
+  const showSolesToDolar = () => {
     const style = isChange.isChange1 ? ' show' : ' hide'
     return style;
   }
 
-  const show2 = () => {
+  const showDolarToSoles = () => {
     const style = isChange.isChange2 ? ' show' : ' hide'
     return style;
   }
@@ -23,18 +25,18 @@ const ChangeOnline = ({ isChange, handleClick1, handleClick2, onConverterBuy, on
         </div>
 
         <div className="row d-flex justify-content-center" >
-          <button type="button" className="btn btn-primary mr-2 px-3" onClick={handleClick1}>Compra: 3.2480</button>
-          <button type="button" class="btn btn-success px-4" onClick={handleClick2}>Venta: 3.2700</button>
+          <button type="button" className="btn btn-primary mr-2 px-3" onClick={clickOne}>Compra: 3.2480</button>
+          <button type="button" class="btn btn-success px-4" onClick={clickTwo}>Venta: 3.2700</button>
         </div>
 
         {/********************************************************mostrar cambio de soles a dolares************************************************** */}
 
-        <div className={"container mt-3" + show1()}>
+        <div className={"container mt-3" + showSolesToDolar()}>
           <div className="row" >
             <div className="col-6 border ">
               <label className="grey-2 f14 mb-0" htmlFor="">Tengo</label>
               <input className="input-c" type="text" maxLength="20" onChange={evt => {
-                onConverterBuy(evt.target.value)
+                operationBuy1(evt.target.value)
               }} />
             </div>
             <div className="col-6 border pt-2">
@@ -68,12 +70,12 @@ const ChangeOnline = ({ isChange, handleClick1, handleClick2, onConverterBuy, on
 
         {/**********************************************mostrar cambio de dolares a soles************************************************************ */}
 
-        <div className={"container venta  mt-3 " + show2()}>
+        <div className={"container venta  mt-3 " + showDolarToSoles()}>
           <div className="row" >
             <div className="col-6 border ">
               <label className="grey-2 f14 mb-0" htmlFor="">Tengo</label>
               <input className="input-c" type="text" maxLength="20" onChange={evt => {
-                onConverterSale(evt.target.value)
+                operationBuy2(evt.target.value)
               }} />
             </div>
             <div className="col-6 border pt-2">
@@ -123,6 +125,12 @@ const ChangeOnline = ({ isChange, handleClick1, handleClick2, onConverterBuy, on
 }
 
 
-
+ChangeOnline.propTypes = {
+  isChange: PropTypes.object.isRequired,
+  clickOne: PropTypes.func,
+  clickTwo: PropTypes.func,
+  operationBuy1: PropTypes.func,
+  operationBuy2: PropTypes.func
+}
 
 export default ChangeOnline;
