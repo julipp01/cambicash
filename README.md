@@ -42,6 +42,9 @@ Ver Demo:
 
 https://rextie.herokuapp.com/
 
+## Flujo de la Aplicación
+https://www.useloom.com/share/7ec71d863064460bbbc9800e29c05f13
+
 ## Elaborador por
 
 - Araceli Cueva
