@@ -10,15 +10,15 @@ Rextie hace la vida más simple y segura a los peruanos, haciendo de la tecnolog
 
 ### Problemas Encontrados:
 
--No se entiende la  utilidas del boton que realiza el cambio de moneda.
--No queda claro lo del anuncio de lo que ahorraría respeto a otras casa de cambio o bancos.
--No queda claro cuando se realiza la compra y cuando se realiza la venta.
--No se tiene bien en claro lo que quiere de decir tengo y quiero.
--No se tiene claro desde que se tiene que registrar una cuenta en soles y dólares, por usuario.
--Al seleccionar cuenta de origen no hay una guía que le indique al usuario que es la cuenta de la que se realizara la transferencia.
--Al seleccionar la cuenta de destino hay una guía que le indique al usuario que tiene que añadir otra cuenta y de diferente denominación de la que transfirió.
--Al mostrar el mensaje de últimos pasos de la operación no se muestra con claridad la cuenta a la que se tiene que realizar la transferencia del dinero.
--Al inicio de la notificación aparece el código de operación eso da a entender al usuario que la operación ha culminado.
+- No se entiende la  utilidas del boton que realiza el cambio de moneda.
+- No queda claro lo del anuncio de lo que ahorraría respeto a otras casa de cambio o bancos.
+- No queda claro cuando se realiza la compra y cuando se realiza la venta.
+- No se tiene bien en claro lo que quiere de decir tengo y quiero.
+- No se tiene claro desde que se tiene que registrar una cuenta en soles y dólares, por usuario.
+- Al seleccionar cuenta de origen no hay una guía que le indique al usuario que es la cuenta de la que se realizara la transferencia.
+- Al seleccionar la cuenta de destino hay una guía que le indique al usuario que tiene que añadir otra cuenta y de diferente denominación de la que transfirió.
+- Al mostrar el mensaje de últimos pasos de la operación no se muestra con claridad la cuenta a la que se tiene que realizar la transferencia del dinero.
+- Al inicio de la notificación aparece el código de operación eso da a entender al usuario que la operación ha culminado.
 
 ## Definición de componentes
 
