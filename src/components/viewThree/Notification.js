@@ -94,7 +94,7 @@ el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
                     <p>Interbank</p>
                     <p>Ahorro Dólares</p>
                     <p>123XXXXXXXXXXX123</p>
-                    <p>PEPITO ROJAS</p>
+                    <p>Araceli Cueva</p>
                   </div>
                 </div>
               </div>
@@ -103,7 +103,7 @@ el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
         </div>
         {/***************************************collapse******************************************/}
         <div className="text-center mt-2">
-          <button type="button" className="btn btn-success px-5 my-4 ">
+          <button type="button" className="btn btn-success px-5 my-4 btn-sell">
             <Link to="/" className="white">Aceptar</Link>
           </button>
         </div>

@@ -273,4 +273,12 @@ footer h4, footer h6 {
 .footer {
   font-size: 0.8rem; }
 
+.btn-buy {
+  background-color: #26A8E0;
+  border: none; }
+
+.btn-sell {
+  background-color: #7ACE3B;
+  border: none; }
+
 /*# sourceMappingURL=App.css.map */

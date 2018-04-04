@@ -69,10 +69,10 @@ const Confirmation = ({ isChange }) => {
           <input type="checkbox" /><span>Aceptar Términos y Condiciones y Política de Privacidad</span>
         </div>
         <div className="text-center mt-3">
-          <button type="button" className="btn btn-success mr-2">
+          <button type="button" className="btn btn-success mr-2 btn-sell">
             <Link to="/" className="white">Cambiar la cantidad</Link>
           </button>
-          <button type="button" className="btn btn-success px-5">
+          <button type="button" className="btn btn-success px-5 btn-sell">
             <Link to="/notification" className="white">Aceptar</Link>
           </button>
         </div>

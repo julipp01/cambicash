@@ -21,8 +21,8 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
           <p className="title-c-2 mt-0">Seguro, rápido y al mejor precio</p>
         </div>
         <div className="row d-flex justify-content-center" >
-          <button type="button" className="btn btn-primary mr-2 px-3" onClick={clickOne}>Compra: 3.2480</button>
-          <button type="button" className="btn btn-success px-4" onClick={clickTwo}>Venta: 3.2700</button>
+          <button type="button" className="btn btn-primary mr-2 px-3 btn-buy" onClick={clickOne}>Compra: 3.2480</button>
+          <button type="button" className="btn btn-success px-4 btn-sell" onClick={clickTwo}>Venta: 3.2700</button>
         </div>
 
         {/********************************************************mostrar cambio de soles a dolares************************************************** */}
@@ -98,7 +98,7 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
           <p className="f14">Tipo de cambio vigente hasta 00:00</p>
         </div>
         <div className="text-center" >
-          <button type="button" className="btn btn-success px-5 ">
+          <button type="button" className="btn btn-success px-5 btn-sell">
             <Link to="/confirmation" className="white">Siguiente</Link>
           </button>
         </div>
