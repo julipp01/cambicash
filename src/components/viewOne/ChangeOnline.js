@@ -19,10 +19,13 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
         <div className="text-center">
           <p className="title-c-1 mb-0">Cambio de dólares online</p>
           <p className="title-c-2 mt-0">Seguro, rápido y al mejor precio</p>
+          <p className="title-buy-sell">Tipo de Cambio: (Compra: 3.2480, Venta: 3.2700)</p>
+          <p className="title-c-5 mb-0">¿QUE QUIERES HACER?</p>
+          <br></br>
         </div>
         <div className="row d-flex justify-content-center" >
-          <button type="button" className="btn btn-primary mr-2 px-3 btn-buy" onClick={clickOne}>Compra: 3.2480</button>
-          <button type="button" className="btn btn-success px-4 btn-sell" onClick={clickTwo}>Venta: 3.2700</button>
+          <button type="button" className="btn btn-primary mr-2 px-3 btn-buy" onClick={clickOne}>¿Quiero Comprar?</button>
+          <button type="button" className="btn btn-success px-4 btn-sell" onClick={clickTwo}>¿Quiero Vender?</button>
         </div>
 
         {/********************************************************mostrar cambio de soles a dolares************************************************** */}

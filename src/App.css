@@ -58,6 +58,12 @@ Header {
   width: 460px;
   margin: 0.3em auto; }
 
+.title-c-5 {
+  font-size: 1.2rem;
+  color: #26A8E0;
+  font-weight: 700;
+  line-height: 1; }
+
 .title-c-2 {
   font-size: 24px;
   color: #7ACE3B;
@@ -107,6 +113,11 @@ Header {
   color: #A2A2A2;
   text-align: center;
   font-weight: 700; }
+
+.title-buy-sell {
+  font-size: 1rem;
+  color: #737476;
+  font-weight: 600; }
 
 .title {
   font-size: 18px; }

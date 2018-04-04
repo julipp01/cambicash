@@ -44,6 +44,8 @@ const Confirmation = ({ isChange }) => {
           <label htmlFor="exampleFormControlSelect1">Cuenta Bancaria de Origen en dólares:</label>
           <select className="form-control col-10" id="exampleFormControlSelect1">
             <option>Seleccione Cuenta Bancaria Origen</option>
+            <option>9586 5309 16 3678190093</option>
+            <option>9586 5309 16 3678190094</option>
           </select>
           <div className="col-2" >
             <button className="ml-2  info-circle" data-container="body" data-toggle="popover" data-placement="bottom" data-content="La cuenta de origen indica de donde se sacará la cantidad de dinero en dólares para el cambio a soles.">
@@ -55,6 +57,8 @@ const Confirmation = ({ isChange }) => {
           <label htmlFor="exampleFormControlSelect1">Cuenta Bancaria de Destino en soles:</label>
           <select className="form-control col-10 " id="exampleFormControlSelect1">
             <option>Seleccione Cuenta Bancaria Destino</option>
+            <option>7261 1719 17 0887601099</option>
+            <option>7261 1719 17 0887601098</option>
           </select>
           <div className="col-2" >
             <button className="ml-2  info-circle" data-container="body" data-toggle="popover" data-placement="bottom" data-content="La cuenta de destino indica donde se depositará el monto cambiado a soles.">

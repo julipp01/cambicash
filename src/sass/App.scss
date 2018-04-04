@@ -77,6 +77,13 @@ Header {
 
 }
 
+.title-c-5 {
+  font-size: 1.2rem;
+  color: $sky-one;
+  font-weight: 700;
+  line-height: 1;
+}
+
 .title-c-2 {
   font-size: 24px;
   color: $green-One;
@@ -137,6 +144,11 @@ Header {
   font-weight: 700;
 }
 
+.title-buy-sell{
+  font-size: 1rem;
+  color:$grey-One;
+  font-weight: 600;
+}
 
 .title {
   font-size: 18px;
@@ -349,3 +361,4 @@ footer h4, footer h6 {
   background-color: $green-One;
   border:none;
 }
+
