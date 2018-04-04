@@ -77,7 +77,7 @@ const Confirmation = ({ isChange }) => {
             <Link to="/" className="white">Cambiar la cantidad</Link>
           </button>
           <button type="button" className="btn btn-success px-5 btn-sell">
-            <Link to="/notification" className="white">Aceptar</Link>
+            <Link to="/notification" className="white">Continuar</Link>
           </button>
         </div>
       </div>

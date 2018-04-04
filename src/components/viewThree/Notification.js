@@ -14,7 +14,7 @@ const Notification = ({ isChange }) => {
     <div className="container mb-3 mt-1">
       <div className="bg-sky-2 radius-20">
         <div className="message m-auto pt-4">
-          <p>Tu código de operación N°9808 fue registrada el día 08/03 a las 23:05 horas.
+          <p>Tu código de operación N°9595 fue registrada el día 04/04 a las 18:45 horas.
         deberás realizar la transferencia en un maximo de 15 minutos para mantener
 el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
         </div>
@@ -104,7 +104,7 @@ el tipo de cambio acordado. Deberá realizar los siguientes dos pasos:</p>
         {/***************************************collapse******************************************/}
         <div className="text-center mt-2">
           <button type="button" className="btn btn-success px-5 my-4 btn-sell">
-            <Link to="/" className="white">Aceptar</Link>
+            <Link to="/" className="white">Finalizar</Link>
           </button>
         </div>
       </div>

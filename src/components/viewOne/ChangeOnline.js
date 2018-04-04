@@ -83,7 +83,7 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
           </div>
           <div className="row" >
             <div className="col-6 border">
-              <label className="grey-2 f14" htmlFor="">Quiero</label>
+              <label className="grey-2 f14" htmlFor="">Obtengo</label>
               <input type="text" className="input-c" maxLength="20" value={isChange.result2} />
             </div>
             <div className="col-6 border pt-2">
@@ -102,7 +102,7 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
         </div>
         <div className="text-center" >
           <button type="button" className="btn btn-success px-5 btn-sell">
-            <Link to="/confirmation" className="white">Siguiente</Link>
+            <Link to="/confirmation" className="white">Continuar Transferencia</Link>
           </button>
         </div>
       </div>
