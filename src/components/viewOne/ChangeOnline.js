@@ -20,7 +20,7 @@ const ChangeOnline = ({ isChange, clickOne, clickTwo, operationBuy1, operationBu
           <p className="title-c-1 mb-0">Cambio de dólares online</p>
           <p className="title-c-2 mt-0">Seguro, rápido y al mejor precio</p>
           <p className="title-buy-sell">Tipo de Cambio: (Compra: 3.2480, Venta: 3.2700)</p>
-          <p className="title-c-5 mb-0">¿QUE QUIERES HACER?</p>
+          <p className="title-c-5 mb-0">¿QUÉ QUIERES HACER?</p>
           <br></br>
         </div>
         <div className="row d-flex justify-content-center" >
