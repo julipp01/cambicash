@@ -36,7 +36,7 @@ Rextie hace la vida más simple y segura a los peruanos, haciendo de la tecnolog
 
 ## Vista Principal del Proyecto
 
-![app](https://user-images.githubusercontent.com/32307611/38184513-c8442e24-360d-11e8-8384-de37bcee9824.PNG)
+![rextie1](https://user-images.githubusercontent.com/32307611/38338406-108ea7f4-382f-11e8-892b-a0605767471c.png)
 
 Ver Demo:
 
