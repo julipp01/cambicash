@@ -18,24 +18,24 @@ var sass = require('gulp-sass')
 gulp.task('js', function(){
   //primero archivo de entrada, todos los archivos
   //pipe conector
-  return gulp.src('src/js/*.js')
+  return gulp.src('src/*.js')
   // concat concatena todos los archivos
   .pipe(concat('app.min.js'))
   .pipe(babel({presets: ['env']}))
   // guglify quita todos los entrer espacio y comentarios
   .pipe(uglify())
   //especificar donde va estar nuestro archivo
-  .pipe(gulp.dest('dist/js/'))
+  .pipe(gulp.dest('public/js/'))
 })
 
 //Minificar css
 gulp.task('css',function(){
-  return gulp.src(['src/css/*.css', 
+  return gulp.src(['src/*.css', 
   'src/sass/*.scss'])
   .pipe(sass())
   .pipe(concat('main.min.css'))
   .pipe(minifycss())
-  .pipe(gulp.dest('dist/css/'))
+  .pipe(gulp.dest('public/css/'))
 })
 
 //Para ejecutar ambas tareas
@@ -46,7 +46,7 @@ gulp.task('css',function(){
 
 // Para ver cambios automaticamente cambie
 gulp.task('watch', function(){
-  gulp.watch(['src/css/*.css', 'src/sass/*.scss'], ['css']);
-  gulp.watch('src/js/*.js', ['js']);
+  gulp.watch(['src/*.css', 'src/sass/*.scss'], ['css']);
+  gulp.watch('src/*.js', ['js']);
 })
 
