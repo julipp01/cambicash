@@ -1,6 +1,10 @@
 # Reto-Rextie
 ![rextie1](https://user-images.githubusercontent.com/32307611/38338406-108ea7f4-382f-11e8-892b-a0605767471c.png)
 
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
+
+
 ## Objetivos
 
 Proponer un nuevo diseño de la aplicación web (zona privada) que facilite a los usuarios realizar una cotización y operación de cambio de dólares.
