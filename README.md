@@ -1,4 +1,6 @@
 # Reto-Rextie
+Rextie: Es una web,  de una casa de cambio online del mismo nombre; desarrollado con el framework JS: React - Redux. 
+
 ![rextie1](https://user-images.githubusercontent.com/32307611/38338406-108ea7f4-382f-11e8-892b-a0605767471c.png)
 
 ## Desarrollado para 
