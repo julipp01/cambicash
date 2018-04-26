@@ -55,6 +55,3 @@ https://www.useloom.com/share/7ec71d863064460bbbc9800e29c05f13
 - Araceli Cueva
 - Vanessa Mendoza
 
-## Desarrollado para
-
-Laboratoria LA
