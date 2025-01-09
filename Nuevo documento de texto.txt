@@ -1,0 +1,8 @@
+cd C:\Users\julio\OneDrive\Escritorio\rextie
+
+npm install
+
+
+npm start
+
+http://localhost:3000
